@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .center {
+            text-align: center;
+            border: 3px solid black;
+        }
+
+        .box {
+            width: 50%;
+            border: 2px solid red;
+            padding: 45px;
+            box-sizing: left;
+        }
+
+        .green {
+            width: 50%;
+            border: 2px solid green;
+            padding: 45px;
+            box-sizing: right;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="center">This box is at center</nav>
+    <div>
+        <div class="box">This box is at left</div>
+        <div class="green">This box is at right</div>
+    </div>
+</body>
+
+</html>
