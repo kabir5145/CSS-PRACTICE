@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+}
+
+.heading{
+    padding: 20px;
+    margin: 0%;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 25px;
+    background-color: lightblue;
+}
+.box{
+    border: 0px;
+}
