@@ -1,0 +1,20 @@
+.box {
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-1 {
+    border: 2px solid darkblue;
+    background-color: lightblue;
+}
+
+.box-2 {
+    border: 2px solid darkgreen;
+    background-color: lightgreen;
+}
+
+.box-3 {
+    border: 2px solid darkred;
+    background-color: lightcoral;
+}
