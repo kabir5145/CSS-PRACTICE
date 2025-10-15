@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    background-color: orange;
+}
+
+.box_1 {
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(204, 202, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_2 {
+    width: 50%;
+    background-color: black;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    float: right;
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 60px;
+    font-size: 30px;
+
+}
+
+.Rahul {
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 270px;
+
+}
+
+.fa {
+    position: absolute;
+    bottom: 250px;
+    transform: scaleX(1.4);
+    word-spacing: 5px;
+}
+
+p,
+address {
+    color: white;
+}
