@@ -1,5 +1,95 @@
-*{
-    margin : 0;
-    padding : 0;
-    box-sizing : border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(237, 116, 136);
+}
+
+:root {
+    --primary-color: rgb(254, 47, 82);
+    --secondary-color:rgb(241, 65, 94) ;
+    --font-family: 'Arial, sans-serif';
+    --back-color: red;
+}
+
+.projects {
+    border-radius: 100px;
+    margin: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    color: darkgoldenrod;
+    font-family: var(--font-family);
+}
+
+header :hover{
+    background-color: var(--primary-color);
+    color: darkorchid;
+    padding: 1rem;
+    text-align: center;
+    font-family: var(--font-family);
+    border-radius: 100px;
+    margin: 10rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    size: 30px;
+    transition: 2s ease-in-out;
+    transform: scale(0.9);
+}
+
+.about :hover{
+    border-radius: 60px;
+    size: 30px;
+    margin: 5rem;
+    padding: 2rem;
+    color: purple;
+    background-color: var(--primary-color);
+}
+.about :hover{
+    transition: 2s  ease-in-out ;
+    transform: scale(0.9);
+}
+main {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 2rem;
+    font-family: var(--font-family);
+    border-radius: 100px;
+    margin: 4rem;
+}
+.head {
+    text-align: center;
+    font-family: var(--font-family);
+    margin: 1rem 0;
+    color: darkviolet;
+    font-size: 2.5rem;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    size: 30px;
+}
+
+.contact {
+    border-radius: 100px;
+    height: 50vh;
+    margin: 3rem;
+    padding: 2rem;
+}
+
+.footer{
+    text-align: center;
+}
+
+.contact-form {
+    float: right;
+    max-width: 100px;
+    margin: 50px 50px;
+    align-self: start;
 }

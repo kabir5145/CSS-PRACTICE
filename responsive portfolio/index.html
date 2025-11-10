@@ -9,23 +9,66 @@
 </head>
 
 <body>
-    <header>
+    <h1 class="head">Kabir</h1>
+    <header class=" header">
         <h1>Welcome to My Personal Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>This is a brief introduction about myself.</p>
+    <section class="about">
+        <p> Hi, I’m Kabir Singh, a passionate B.Tech student in Artificial Intelligence and Machine Learning with a
+            growing interest in web development, Java programming, and data structures. I love building real-world
+            projects and exploring how AI and modern web technologies can work together to create smart, interactive
+            digital solutions.
+
+            Currently, I’m strengthening my skills in HTML, CSS, and Java, while also exploring DSA (Data Structures &
+            Algorithms) to improve my problem-solving abilities. Alongside my studies, I regularly practice coding on
+            LeetCode and work on personal portfolio projects to enhance both my technical and creative skills.
+
+            My long-term goal is to become a skilled AI or Full Stack developer, capable of building impactful software
+            solutions and contributing to innovative projects that make a difference.</p>
     </section>
-    <section id="projects">
+    <section class="projects">
         <h2>Projects</h2>
         <p>Details about my projects will go here.</p>
+        <nav class="nav">
+            <ul>
+                <li><a href="projects">https://github.com/kabir5145</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
     </section>
+    <main>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Want to contact or hire ? Drop a message</p>
+            <table>
+                <tr>
+                    <th>Phone :</th>
+                    <td>+91 9417505293</td>
+                </tr>
+                <tr>
+                    <th>Email :</th>
+                    <td> <a href="kabir10112006@gmail.com">kabir10112006@gmail.com</a></td>
+                    <div class="contact-form">
+                        <form action="#" method="post">
+                            <label for="name">Enter your name:</label><br>
+                            <input type="text" id="name" name="name" placeholder="Your name here" required><br><br>
+
+                            <label for="email">Enter your email:</label><br>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+                            <label for="message">Your message:</label><br>
+                            <textarea id="message" name="message" placeholder="Type something..."
+                                rows="4"></textarea><br><br>
+
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+            </table>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 My Personal Portfolio</p>
+    </footer>
 </body>
 
 </html>
