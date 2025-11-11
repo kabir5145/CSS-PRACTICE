@@ -10,7 +10,7 @@ body {
 
 :root {
     --primary-color: rgb(254, 47, 82);
-    --secondary-color:rgb(241, 65, 94) ;
+    --secondary-color: rgb(241, 65, 94);
     --font-family: 'Arial, sans-serif';
     --back-color: red;
 }
@@ -25,7 +25,7 @@ body {
     font-family: var(--font-family);
 }
 
-header :hover{
+header {
     background-color: var(--primary-color);
     color: darkorchid;
     padding: 1rem;
@@ -40,7 +40,7 @@ header :hover{
     transform: scale(0.9);
 }
 
-.about :hover{
+.about {
     border-radius: 60px;
     size: 30px;
     margin: 5rem;
@@ -48,10 +48,12 @@ header :hover{
     color: purple;
     background-color: var(--primary-color);
 }
-.about :hover{
-    transition: 2s  ease-in-out ;
+
+.about :hover {
+    transition: 2s ease-in-out;
     transform: scale(0.9);
 }
+
 main {
     background-color: var(--secondary-color);
     color: white;
@@ -60,6 +62,7 @@ main {
     border-radius: 100px;
     margin: 4rem;
 }
+
 .head {
     text-align: center;
     font-family: var(--font-family);
@@ -78,18 +81,68 @@ main {
 
 .contact {
     border-radius: 100px;
-    height: 50vh;
+    height: 60vh;
     margin: 3rem;
     padding: 2rem;
 }
 
-.footer{
+.footer {
     text-align: center;
 }
 
 .contact-form {
     float: right;
-    max-width: 100px;
-    margin: 50px 50px;
-    align-self: start;
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+body {
+  background-color: #fca5a5; /* light pink background */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.contact-container {
+  background-color: #ef4444; /* red color */
+  color: white;
+  width: 400px;
+  margin: 80px auto; /* center it horizontally */
+  padding: 30px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.contact-form p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  background-color: white;
+  color: #ef4444;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #fef2f2;
 }
